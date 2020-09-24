@@ -1,0 +1,147 @@
+/*
+Theme Name: Portfolio
+Theme URI:
+Author: David Barisic
+Author URI:
+Description: Twenty Seventeen brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* Invert color hero */
+.hero{
+  cursor: none;
+}
+.hero:before {
+  content:"";
+  position:absolute;
+  z-index:999;
+  top:var(--y);
+  left:var(--x);
+  right:0;
+  bottom:0;
+  width:3.5em;
+  height:3.5em;
+  border-radius:50%;
+  transform:translate(-50%,-50%);
+  background:#fff;
+  mix-blend-mode:difference;
+}
+.red{
+  width:33vw;
+  height:100vh;
+  position:absolute;
+  background-color:red;
+}
+.black{
+  width:33vw;
+  height:100vh;
+  margin-left:33vw;
+  position:absolute;
+  background:url(https://picsum.photos/800/600?image=1069) center/cover;
+}
+.green{
+  width:33vw;
+  height:100vh;
+  margin-left:66vw;
+  position:absolute;
+  background:url(https://picsum.photos/800/600?image=1039) center/cover;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+.typewriter-1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid teal; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation:
+      typing 3.5s steps(24, end),
+      blink-caret .65s step-end infinite;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 30% }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: teal; }
+  }
+
+.font-heading {
+  font-family: 'Raleway', sans-serif;
+}
+
+.h-half{
+  height: 50vh;
+}
+
+/* Mouse scroll indicator on hero */
+.mouse{
+  margin: 50px auto;
+  width: 100px;
+}.mouse-icon{
+   width: 25px;
+   height: 45px;
+   border: 2px solid white;
+   border-radius: 15px;
+   cursor: pointer;
+   position: relative;
+   text-align: center;
+}.mouse-wheel{
+  height: 6px;
+  margin: 2px auto 0;
+  display: block;
+  width: 3px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-animation: 1.6s ease infinite wheel-up-down;
+ -moz-animation: 1.6s ease infinite wheel-up-down;
+  animation: 1.6s ease infinite wheel-up-down;
+}
+@-webkit-keyframes wheel-up-down {
+	0% {
+	    margin-top: 2px;
+	    opacity: 0;
+	}
+	30% {
+	    opacity: 1;
+	}
+	100% {
+	    margin-top: 20px;
+	    opacity: 0;
+	}
+}@-moz-keyframes wheel-up-down {
+	0% {
+	    margin-top: 2px;
+	    opacity: 0;
+	}
+	30% {
+	    opacity: 1;
+	}
+	100% {
+	    margin-top: 20px;
+	    opacity: 0;
+	}
+}@keyframes wheel-up-down {
+	0% {
+	    margin-top: 2px;
+	    opacity: 0;
+	}
+	30% {
+	    opacity: 1;
+	}
+	100% {
+	    margin-top: 20px;
+	    opacity: 0;
+	}
+}
