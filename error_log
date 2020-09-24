@@ -1,9 +1,0 @@
-[24-Sep-2020 11:44:56 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/davidbar/public_html/wp-content/themes/portfolio-theme/mail.php on line 9
-[24-Sep-2020 11:45:09 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/davidbar/public_html/wp-content/themes/portfolio-theme/mail.php on line 9
-[24-Sep-2020 11:45:48 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/davidbar/public_html/wp-content/themes/portfolio-theme/mail.php on line 9
-[24-Sep-2020 11:46:53 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/davidbar/public_html/wp-content/themes/portfolio-theme/mail.php on line 9
-[24-Sep-2020 11:47:18 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/davidbar/public_html/wp-content/themes/portfolio-theme/mail.php on line 9
-[24-Sep-2020 11:47:44 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/davidbar/public_html/wp-content/themes/portfolio-theme/mail.php on line 9
-[24-Sep-2020 11:49:11 UTC] PHP Warning:  file_get_contents(&lt;?php bloginfo('template_url'); ?&gt;/thanks.html): failed to open stream: No such file or directory in /home/davidbar/public_html/wp-content/themes/portfolio-theme/mail.php on line 9
-[24-Sep-2020 11:54:33 UTC] PHP Warning:  file_get_contents(&lt;?php bloginfo('template_url'); ?&gt;/thanks.html): failed to open stream: No such file or directory in /home/davidbar/public_html/wp-content/themes/portfolio-theme/mail.php on line 9
-[24-Sep-2020 11:57:28 UTC] PHP Warning:  readfile(&lt;?php bloginfo('template_url'); ?&gt;/thanks.html): failed to open stream: No such file or directory in /home/davidbar/public_html/wp-content/themes/portfolio-theme/mail.php on line 9
